@@ -3,7 +3,7 @@ title: "Sitzend"
 date: 2026-03-26
 tags: []
 featured: false
-draft: true
+draft: false
 ---
 
 ![](/media/Peter%20Oswald,%20Sitzend,%202023%20%C2%A9%20Bildrecht,%20Wien%202024%20%E2%80%93%20Foto%20Gregor%20Hofbauer.jpg)

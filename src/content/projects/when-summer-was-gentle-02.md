@@ -3,7 +3,7 @@ title: "When summer was gentle 02"
 date: 2026-04-15
 tags: []
 featured: false
-draft: true
+draft: false
 ---
 
 ![](/media/Peter%20Oswald,%20When%20summer%20was%20gentle%2002,%202024%20%C2%A9%20Bildrecht,%20Wien%202025%20%E2%80%93%20Foto%20Gregor%20Hofbauer.jpg)

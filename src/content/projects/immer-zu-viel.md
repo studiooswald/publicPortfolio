@@ -3,7 +3,7 @@ title: "Immer zu viel"
 date: 2026-04-24
 tags: []
 featured: false
-draft: true
+draft: false
 ---
 
 ![](/media/Peter%20Oswald,%20Immer%20zu%20viel,%202025%20%C2%A9%20Bildrecht,%20Wien%202025%20%E2%80%93%20Foto%20Gregor%20Hofbauer.jpg)
