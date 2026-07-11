@@ -1,0 +1,64 @@
+media:
+  input: public/media
+  output: /media
+
+content:
+  - name: projects
+    label: Projects
+    type: collection
+    path: src/content/projects
+    filename: '{fields.title}.md'
+    view:
+      fields: [title, date, tags, featured, draft]
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description
+        description: Short summary used in previews and search results.
+        type: text
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: cover
+        label: Cover image
+        type: image
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: featured
+        label: Featured on home page
+        type: boolean
+        default: false
+      - name: draft
+        label: Draft (hidden from the site)
+        type: boolean
+        default: false
+      - name: body
+        label: Project story
+        type: rich-text
+
+  - name: pages
+    label: Pages
+    type: collection
+    path: src/content/pages
+    filename: '{fields.title}.md'
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: text
+      - name: body
+        label: Content
+        type: rich-text

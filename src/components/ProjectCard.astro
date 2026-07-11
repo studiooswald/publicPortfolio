@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project } = Astro.props;
+const { title, cover, tags, date } = project.data;
+---
+
+<a class="card" href={`/work/${project.id}/`}>
+  <div class="thumb">
+    {cover && <img src={cover} alt={title} loading="lazy" />}
+  </div>
+  <h3>{title}</h3>
+  <p class="meta">
+    {tags.length > 0 ? tags.join(' · ') : date.getFullYear()}
+  </p>
+</a>
