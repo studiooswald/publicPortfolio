@@ -56,11 +56,11 @@ const notes = files.filter((f) => f.endsWith('.md'));
 // Index every non-markdown file by basename so ![[image.png]] can be resolved
 const assetIndex = new Map();
 for (const f of files.filter((f) => !f.endsWith('.md'))) {
-  assetIndex.set(path.basename(f), f);
+  assetIndex.set(path.basename(f).normalize('NFC'), f);
 }
 if (attachmentsDir && fs.existsSync(attachmentsDir)) {
   for (const f of walk(attachmentsDir)) {
-    assetIndex.set(path.basename(f), f);
+    assetIndex.set(path.basename(f).normalize('NFC'), f);
   }
 }
 
@@ -84,7 +84,7 @@ for (const file of notes) {
 
   // ![[image.png]] and ![[image.png|400]] -> ![](/media/image.png), copy asset
   body = body.replace(/!\[\[([^\]|]+?)(?:\|[^\]]*)?\]\]/g, (match, target) => {
-    const base = path.basename(target.trim());
+    const base = path.basename(target.trim()).normalize('NFC');
     const src = assetIndex.get(base);
     if (src) {
       fs.copyFileSync(src, path.join(mediaDir, base));
