@@ -12,7 +12,7 @@ editable in the browser via [Pages CMS](https://pagescms.org).
 ```
 Obsidian vault (Mac, iCloud)          GitHub repo (this one)                Web
 ┌──────────────────────────┐   push   ┌───────────────────────┐   deploy   ┌──────────────────────────────┐
-│ "Public" folder of notes │ ───────► │ src/content/*.md      │ ─────────► │ portfolio.studiooswald.com   │
+│ "Public" folder of notes │ ───────► │ src/content/*.md      │ ─────────► │ archive.studiooswald.com   │
 │ (or one-time export)     │          │ + Astro site          │  (GitHub   │ (GitHub Pages, free, HTTPS)  │
 └──────────────────────────┘          │ + .pages.yml          │  Actions)  └──────────────────────────────┘
                                       └───────────▲───────────┘
@@ -43,17 +43,17 @@ Obsidian vault (Mac, iCloud)          GitHub repo (this one)                Web
 
 ## 2. Domain: subdomain, not subpath
 
-GitHub Pages can serve a **subdomain** (e.g. `portfolio.studiooswald.com`)
+GitHub Pages can serve a **subdomain** (e.g. `archive.studiooswald.com`)
 with one DNS record. A true sub**path** (`studiooswald.com/portfolio`) is
 only possible if whatever hosts the main studiooswald.com site can proxy
 that path — GitHub Pages can't be mounted into another host's path by DNS
 alone.
 
-**Recommendation:** `portfolio.studiooswald.com` (or `work.` / `notes.` —
+**Recommendation:** `archive.studiooswald.com` (or `work.` / `notes.` —
 your call). Setup:
 
 1. Site repo contains a `CNAME`/custom-domain setting for the subdomain.
-2. In your DNS provider, add: `CNAME  portfolio  studiooswald.github.io`
+2. In your DNS provider, add: `CNAME  archive  studiooswald.github.io`
 3. Enable "Enforce HTTPS" in the repo's Pages settings (automatic cert).
 
 ## 3. Content model
@@ -118,7 +118,7 @@ Phase 4 is where your actual vault content lands.
 
 ## 6. What I need from you (decisions)
 
-1. **Subdomain name** — `portfolio.studiooswald.com`? (`work.`, `notes.`,
+1. **Subdomain name** — `archive.studiooswald.com`? (`work.`, `notes.`,
    something else?) And where is studiooswald.com's DNS managed, so I can
    give exact record instructions?
 2. **Curated portfolio (Astro, recommended) or publish-the-vault digital

@@ -13,7 +13,7 @@ fehlen nur noch Setup-Schritte und der Import der Obsidian-Notizen.
   "Pages", Medien in `public/media/`). Editierbar unter app.pagescms.org.
 - **`.github/workflows/deploy.yml`**: deployt bei jedem Push auf **`main`**
   zu GitHub Pages. Achtung: triggert NUR auf `main`.
-- **`public/CNAME`**: `portfolio.studiooswald.com`.
+- **`public/CNAME`**: `archive.studiooswald.com`.
 - **`scripts/obsidian-import.mjs`**: Import-Skript für Obsidian-Notizen
   (getestet). Konvertiert `[[wikilinks]]` → Text, `![[bild.png|400]]` →
   Markdown-Bild + kopiert die Datei nach `public/media/`, entfernt
@@ -28,10 +28,10 @@ fehlen nur noch Setup-Schritte und der Import der Obsidian-Notizen.
    Rename), oder lokal: `git push origin HEAD:main` und dann auf GitHub
    `main` als Default setzen. Erst danach läuft das Deploy-Workflow.
 2. **GitHub Pages aktivieren**: Repo → Settings → Pages → Source:
-   **GitHub Actions**. Custom Domain: `portfolio.studiooswald.com`.
+   **GitHub Actions**. Custom Domain: `archive.studiooswald.com`.
    Das Repo muss dafür **public** sein.
 3. **DNS**: Beim DNS-Anbieter von studiooswald.com einen Eintrag anlegen:
-   `CNAME  portfolio  studiooswald.github.io` — danach in den
+   `CNAME  archive  studiooswald.github.io` — danach in den
    Pages-Settings "Enforce HTTPS" aktivieren (Zertifikat dauert ein paar
    Minuten).
 4. **Obsidian-Notizen importieren** (der eigentliche Grund für den Mac):
@@ -53,7 +53,7 @@ fehlen nur noch Setup-Schritte und der Import der Obsidian-Notizen.
    Projekte da sind. Texte in `src/content/pages/about.md` und
    `contact.md` ersetzen.
 6. **Committen & pushen** → Deploy prüfen (Actions-Tab), Site unter
-   https://portfolio.studiooswald.com testen.
+   https://archive.studiooswald.com testen.
 7. Danach kann alles Weitere über **Pages CMS** (app.pagescms.org,
    GitHub-Login) im Browser gepflegt werden — jeder Save deployt neu.
 

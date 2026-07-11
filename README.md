@@ -3,7 +3,7 @@
 Public portfolio site for [studiooswald.com](https://studiooswald.com),
 built with [Astro](https://astro.build), edited with
 [Pages CMS](https://pagescms.org), hosted on GitHub Pages at
-**https://portfolio.studiooswald.com**.
+**https://archive.studiooswald.com**.
 
 See [PLAN.md](PLAN.md) for the full architecture.
 
@@ -13,10 +13,10 @@ See [PLAN.md](PLAN.md) for the full architecture.
 2. **Enable GitHub Pages**: repo → Settings → Pages → *Build and
    deployment* → Source: **GitHub Actions**.
 3. **Custom domain**: on the same Pages settings screen, set custom domain
-   to `portfolio.studiooswald.com`, and at your DNS provider add:
+   to `archive.studiooswald.com`, and at your DNS provider add:
 
    ```
-   CNAME   portfolio   studiooswald.github.io
+   CNAME   archive   studiooswald.github.io
    ```
 
    Once the certificate is issued (usually minutes), tick **Enforce HTTPS**.
