@@ -198,6 +198,8 @@ plugins:
       includedProperties:
         - Year
         - Dimensions
+        - Material
+        - ShownIn
         - Sold
         - Series
         - Credit

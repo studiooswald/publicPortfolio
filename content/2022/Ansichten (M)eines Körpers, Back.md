@@ -10,6 +10,7 @@ Series: "Ansichten (M)eines Körpers"
 Instagram: Yes
 Instagram-Text: 
 cover: "/image-database/2022/peter-oswald,-ansichten-(m)eines-körpers---back,-2022-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
+Material: ["cotton", "graphite", "oil-color"]
 tags: ["cotton", "graphite", "oil-color"]
 ---
 

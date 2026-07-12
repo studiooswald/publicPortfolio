@@ -10,6 +10,7 @@ Series: "Whenever I get lost, I take a breath"
 Instagram: No
 Instagram-Text: 
 cover: "/image-database/2025/peter-oswald,-whenever-i-get-lost,-i-take-a-breath-01,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
+Material: ["oil-color", "graphite", "sand", "fiberboard", "gesso"]
 tags: ["oil-color", "graphite", "sand", "fiberboard", "gesso"]
 ---
 

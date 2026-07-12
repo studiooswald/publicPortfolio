@@ -10,6 +10,7 @@ Series: ""
 Instagram: No
 Instagram-Text: 
 cover: "/image-database/2025/peter-oswald,-dissociation-04-,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
+Material: ["oil-color", "graphite", "linen"]
 tags: ["oil-color", "graphite", "linen"]
 ---
 

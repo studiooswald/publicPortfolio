@@ -10,6 +10,7 @@ Series: "an odd series of objects"
 Instagram: Yes
 Instagram-Text: 
 cover: "/image-database/2024/peter-oswald,-are-the-flowers-blooming?-03,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.png"
+Material: ["oil-color", "graphite", "linen"]
 tags: ["oil-color", "graphite", "linen"]
 ---
 

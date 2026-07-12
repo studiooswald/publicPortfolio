@@ -10,6 +10,7 @@ Series: "When summer was gentle"
 Instagram: No
 Instagram-Text: 
 cover: "/image-database/2025/peter-oswald,-when-summer-was-gentle-01,-2025-©-bildrecht,-wien-2025-–-foto-peter-oswald.jpg"
+Material: ["oil-color", "graphite", "mdf"]
 tags: ["oil-color", "graphite", "mdf"]
 ---
 

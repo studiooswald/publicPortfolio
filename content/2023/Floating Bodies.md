@@ -10,6 +10,7 @@ Series: ""
 Instagram: No
 Instagram-Text: 
 cover: "/image-database/2023/peter-oswald,-floating-bodies,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
+Material: ["linen", "oil-color"]
 tags: ["linen", "oil-color"]
 ---
 

@@ -10,6 +10,7 @@ Series: "an odd series of objects"
 Instagram: No
 Instagram-Text: 
 cover: "/image-database/2024/peter-oswald,-körper-01,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.jpg"
+Material: ["oil-color", "graphite", "brass", "wood"]
 tags: ["oil-color", "graphite", "brass", "wood"]
 ---
 

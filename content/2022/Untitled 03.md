@@ -10,6 +10,7 @@ Series: ""
 Instagram: Yes
 Instagram-Text: 
 cover: "/image-database/2022/peter-oswald,-untitled-03,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
+Material: ["acrylic-color", "cotton", "graphite"]
 tags: ["acrylic-color", "cotton", "graphite"]
 ---
 

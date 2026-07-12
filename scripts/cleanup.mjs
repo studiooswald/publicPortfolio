@@ -1,23 +1,32 @@
 #!/usr/bin/env node
-// Strip Obsidian-specific sections, extract materials as tags, extract cover image.
 import fs from 'node:fs'
 import path from 'node:path'
 
 const contentDir = path.join(process.cwd(), 'content')
 const imgDbDir = path.join(contentDir, 'Image Database')
 
-// Build a flat index: basename (lowercase) → relative URL from site root
+// Build image index recursively (handles subdirectories like 2026/A sense of finding home/)
 const imageIndex = new Map()
+
+function indexImages(dir, urlBase) {
+  if (!fs.existsSync(dir)) return
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name)
+    if (entry.isDirectory()) {
+      const subSlug = entry.name.toLowerCase().replace(/\s+/g, '-')
+      indexImages(full, `${urlBase}/${subSlug}`)
+    } else if (/\.(jpe?g|png|gif|webp)$/i.test(entry.name)) {
+      const slug = entry.name.toLowerCase().replace(/\s+/g, '-')
+      imageIndex.set(entry.name.normalize('NFC'), `${urlBase}/${slug}`)
+    }
+  }
+}
+
 if (fs.existsSync(imgDbDir)) {
   for (const year of fs.readdirSync(imgDbDir)) {
     const yearDir = path.join(imgDbDir, year)
     if (!fs.statSync(yearDir).isDirectory()) continue
-    for (const file of fs.readdirSync(yearDir)) {
-      if (!/\.(jpe?g|png|gif|webp)$/i.test(file)) continue
-      const slug = file.toLowerCase().replace(/\s+/g, '-')
-      // Store as absolute site path
-      imageIndex.set(file.normalize('NFC'), `/image-database/${year}/${slug}`)
-    }
+    indexImages(yearDir, `/image-database/${year}`)
   }
 }
 
@@ -39,11 +48,20 @@ function parseFrontmatter(text) {
   return { fm, fmRaw: m[0], body: text.slice(m[0].length) }
 }
 
-function extractMaterials(body) {
-  const m = body.match(/^### Material:\s*\n(#[A-Za-z][a-zA-Z-]+(?:\s+#[A-Za-z][a-zA-Z-]+)*)/m)
+// Extract materials from body ### Material: section (legacy fallback)
+function extractMaterialsFromBody(body) {
+  const m = body.match(/^### Material:\s*\r?\n(#[A-Za-z][a-zA-Z-]+(?:\s+#[A-Za-z][a-zA-Z-]+)*)/m)
   if (!m) return []
   return m[1].trim().split(/\s+/)
     .map(t => t.replace(/^#/, '').toLowerCase())
+    .filter(Boolean)
+}
+
+// Parse YAML array/string value like ["a", "b"] or a, b
+function parseYamlList(val) {
+  if (!val) return []
+  return val.replace(/^\[|\]$/g, '').split(',')
+    .map(t => t.trim().replace(/^["']|["']$/g, ''))
     .filter(Boolean)
 }
 
@@ -52,6 +70,14 @@ function extractCover(body) {
   if (!m) return null
   const basename = path.basename(m[1].trim()).normalize('NFC')
   return imageIndex.get(basename) ?? null
+}
+
+// Extract text from a ### Section: block
+function extractSection(body, sectionName) {
+  const re = new RegExp(`^### ${sectionName}:\\s*\\r?\\n([\\s\\S]*?)(?=^###|\\Z)`, 'm')
+  const m = body.match(re)
+  if (!m) return ''
+  return m[1].replace(/^---\s*$/gm, '').replace(/#BodyOfWork\s*/g, '').trim()
 }
 
 function cleanBody(body) {
@@ -69,35 +95,51 @@ function cleanBody(body) {
     .trim()
 }
 
-function buildFrontmatter(fm, materials, cover) {
-  const existingTags = fm.tags
-    ? fm.tags.replace(/^\[|\]$/g, '').split(',').map(t => t.trim().replace(/^["']|["']$/g, '')).filter(Boolean)
-    : []
-  const allTags = [...new Set([...existingTags, ...materials])]
+function buildFrontmatter(fm, materials, cover, shownIn) {
+  // Read existing Material property (from vault YAML) or legacy tags
+  const existingMaterial = parseYamlList(fm.Material)
+  const existingTags = parseYamlList(fm.tags)
+
+  // Merge: Material property wins, fall back to legacy tags, then body extraction
+  const allMaterials = existingMaterial.length > 0
+    ? existingMaterial
+    : existingTags.length > 0
+      ? existingTags
+      : materials
 
   const lines = ['---']
-  // Preserve original fields (except tags which we rebuild)
-  const skip = new Set(['tags'])
+  const skip = new Set(['tags', 'Material', 'ShownIn', 'cover'])
   for (const [k, v] of Object.entries(fm)) {
     if (skip.has(k)) continue
     lines.push(`${k}: ${v}`)
   }
+
   if (cover && !fm.cover) lines.push(`cover: "${cover}"`)
-  if (allTags.length) lines.push(`tags: [${allTags.map(t => `"${t}"`).join(', ')}]`)
+  if (allMaterials.length) {
+    lines.push(`Material: [${allMaterials.map(t => `"${t}"`).join(', ')}]`)
+    // Also keep tags: for Quartz tag-page browsing
+    lines.push(`tags: [${allMaterials.map(t => `"${t}"`).join(', ')}]`)
+  }
+
+  const resolvedShownIn = shownIn || fm.ShownIn || ''
+  if (resolvedShownIn) lines.push(`ShownIn: "${resolvedShownIn.replace(/"/g, '\\"')}"`)
+
   lines.push('---')
   return lines.join('\n') + '\n'
 }
 
 let cleaned = 0
 for (const file of walk(contentDir)) {
+  if (file.includes('Image Database')) continue
   const original = fs.readFileSync(file, 'utf8')
   const { fm, body } = parseFrontmatter(original)
 
-  const materials = extractMaterials(body)
+  const materials = extractMaterialsFromBody(body)
   const cover = extractCover(body)
+  const shownIn = extractSection(body, 'Shown in')
   const cleanedBody = cleanBody(body)
 
-  const newFm = buildFrontmatter(fm, materials, cover)
+  const newFm = buildFrontmatter(fm, materials, cover, shownIn)
   const result = newFm + '\n' + cleanedBody + '\n'
 
   if (result !== original) {

@@ -10,6 +10,7 @@ Series: Skizze
 Instagram: No
 Instagram-Text: 
 cover: "/image-database/2025/peter-oswald,-skizze-01,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
+Material: ["canvas", "thread", "primer"]
 tags: ["canvas", "thread", "primer"]
 ---
 

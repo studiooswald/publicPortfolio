@@ -50,7 +50,12 @@ export const PageList: QuartzComponent = ({
     <ul class="section-ul artwork-grid">
       {list.map((page) => {
         const title = page.frontmatter?.title;
-        const tags = (page.frontmatter?.tags ?? []) as string[];
+        const rawMaterial = page.frontmatter?.Material;
+        const tags: string[] = Array.isArray(rawMaterial)
+          ? rawMaterial as string[]
+          : typeof rawMaterial === 'string'
+            ? (rawMaterial as string).replace(/^\[|\]$/g, '').split(',').map((t: string) => t.trim().replace(/^["']|["']$/g, '')).filter(Boolean)
+            : [];
         const cover = page.frontmatter?.cover as string | undefined;
         const year = page.frontmatter?.Year as string | undefined;
         const dimensions = page.frontmatter?.Dimensions as string | undefined;
@@ -116,15 +121,13 @@ PageList.css = `
 
 .artwork-thumb {
   width: 100%;
-  aspect-ratio: 4/5;
   overflow: hidden;
   background: var(--lightgray);
 }
 
 .artwork-thumb img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
   display: block;
   transition: transform 0.3s ease;
 }

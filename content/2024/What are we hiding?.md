@@ -8,6 +8,7 @@ Dimensions: 18 x 24 x 3 cm
 Credit: Peter Oswald
 Series: "an odd series of objects"
 cover: "/image-database/2024/peter-oswald,-what-are-we-hiding?,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.jpg"
+Material: ["oil-color", "graphite", "mdf"]
 tags: ["oil-color", "graphite", "mdf"]
 ---
 

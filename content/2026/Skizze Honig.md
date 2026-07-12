@@ -10,6 +10,8 @@ Series: a sense of finding home
 Instagram: No
 Instagram-Text: 
 Web-Image: /assets/media/2026/07/peter-oswald-the-weight-of-a-touch-2026.webp
+cover: "/image-database/2026/a-sense-of-finding-home/peter-oswald,-a-sense-of-finding-home-15,-2026-©-bildrecht,-wien-2026-–-foto-gerd-tschebular.jpg"
+Material: ["wood", "linen", "oil-color", "oil-pastel", "wax", "graphite"]
 tags: ["wood", "linen", "oil-color", "oil-pastel", "wax", "graphite"]
 ---
 
