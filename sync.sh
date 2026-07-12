@@ -9,6 +9,7 @@ echo "→ Syncing notes..."
 rsync -a --delete \
   --exclude=".obsidian" \
   --exclude="*.canvas" \
+  --exclude="index.md" \
   "$VAULT/Body of Work/" \
   "$QUARTZ/content/"
 
