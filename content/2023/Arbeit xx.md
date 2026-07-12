@@ -1,14 +1,12 @@
 ---
 Year: 2023
+Series: ""
+Dimensions: 40 x 50 cm
 Sold: Yes
 Price: € 550 (Gifted)
-Location: Wien
 Owner: Marieke van Kan
-Dimensions: 40 x 50 cm
+Location: Wien
 Credit: Gregor Hofbauer
-Series: ""
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2023/peter-oswald,-arbeit-xx,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["linen", "oil-color", "graphite"]
 tags: ["linen", "oil-color", "graphite"]

@@ -1,15 +1,12 @@
 ---
 Year: 2026
+Series: ""
+Dimensions: 140 x 120 cm
 Sold: No
 Price: € 2590
-Location: Studio
 Owner: Courtesy of the Artist
-Dimensions: 140 x 120 cm
+Location: Studio
 Credit: Peter Oswald
-Series: ""
-Instagram: No
-Instagram-Text: 
-Web-Image: /assets/media/2026/07/peter-oswald-the-shape-it-used-to-hold-2026.webp
 cover: "/image-database/2026/peter-oswald,-the-shape-it-used-to-hold,-2026-©-bildrecht,-wien-2026-–-foto-peter-oswald.jpg"
 ---
 

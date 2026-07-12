@@ -1,14 +1,12 @@
 ---
 Year: 2022
+Series: ""
+Dimensions: 120 x 100 cm
 Sold: No
 Price: € 1310
-Location: Laura Ginther
 Owner: Courtesy of the Artist
-Dimensions: 120 x 100 cm
+Location: Laura Ginther
 Credit: Gregor Hofbauer
-Series: ""
-Instagram: Yes
-Instagram-Text: 
 cover: "/image-database/2022/peter-oswald,-untitled-04,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
 Material: ["acrylic-color", "cotton", "graphite"]
 tags: ["acrylic-color", "cotton", "graphite"]

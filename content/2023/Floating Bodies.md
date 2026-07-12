@@ -1,14 +1,12 @@
 ---
 Year: 2023
+Series: ""
+Dimensions: 60 x 80 cm
 Sold: No
 Price: € 580
-Location: Studio
 Owner: Courtesy of the Artist
-Dimensions: 60 x 80 cm
+Location: Studio
 Credit: Gregor Hofbauer
-Series: ""
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2023/peter-oswald,-floating-bodies,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["linen", "oil-color"]
 tags: ["linen", "oil-color"]

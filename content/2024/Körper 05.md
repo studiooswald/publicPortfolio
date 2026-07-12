@@ -1,14 +1,12 @@
 ---
 Year: 2024
+Series: "an odd series of objects"
+Dimensions: 8 x 4,5 x 22,5 cm
 Sold: No
 Price: € 470
-Location: Studio
 Owner: Courtesy of the Artist
-Dimensions: 8 x 4,5 x 22,5 cm
+Location: Studio
 Credit: Gregor Hofbauer
-Series: "an odd series of objects"
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2024/peter-oswald,-körper-05,-2024-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "brass", "wood"]
 tags: ["oil-color", "graphite", "brass", "wood"]

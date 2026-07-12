@@ -41,9 +41,20 @@ function parseFrontmatter(text) {
   const m = text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/)
   if (!m) return { fm: {}, fmRaw: '', body: text }
   const fm = {}
+  let lastKey = null
   for (const line of m[1].split(/\r?\n/)) {
     const kv = line.match(/^([A-Za-z_-]+):\s*(.*)$/)
-    if (kv) fm[kv[1]] = kv[2].trim()
+    if (kv) {
+      lastKey = kv[1]
+      fm[lastKey] = kv[2].trim()
+    } else if (lastKey && /^\s+-\s/.test(line)) {
+      // Multi-line YAML list item (e.g. ShownIn converted by Obsidian)
+      const item = line.replace(/^\s+-\s*/, '').trim().replace(/^["']|["']$/g, '')
+      const cur = fm[lastKey]
+      fm[lastKey] = cur === '' || cur === '[]'
+        ? `["${item}"]`
+        : cur.slice(0, -1) + `, "${item}"]`
+    }
   }
   return { fm, fmRaw: m[0], body: text.slice(m[0].length) }
 }
@@ -63,6 +74,18 @@ function parseYamlList(val) {
   return val.replace(/^\[|\]$/g, '').split(',')
     .map(t => t.trim().replace(/^["']|["']$/g, ''))
     .filter(Boolean)
+}
+
+// Parse ShownIn from vault YAML — supports wikilink list ["[[J. Hornig]]", "[[Kabuff Graz, X]]"] and plain strings
+function parseShownIn(val) {
+  if (!val) return ''
+  const stripped = val.replace(/^["']+|["']+$/g, '').trim()
+  if (!stripped || stripped === '[]') return ''
+  // Extract [[wikilink]] targets directly (avoids splitting on commas inside names)
+  const wikilinks = [...stripped.matchAll(/\[\[([^\]]+)\]\]/g)].map(m => m[1].trim())
+  if (wikilinks.length > 0) return wikilinks.join(' · ')
+  // Plain string fallback (no wikilinks)
+  return stripped.replace(/^\[|\]$/g, '').replace(/^["']+|["']+$/g, '')
 }
 
 function extractCover(body) {
@@ -130,8 +153,7 @@ function buildFrontmatter(fm, materials, cover, shownIn) {
     lines.push(`tags: [${allMaterials.map(t => `"${t}"`).join(', ')}]`)
   }
 
-  // Strip all surrounding/inner quote layers from existing ShownIn (avoid double-escaping on repeat runs)
-  const existingShownIn = (fm.ShownIn || '').replace(/^["']+|["']+$/g, '').replace(/\\"/g, '"').replace(/^["']+|["']+$/g, '')
+  const existingShownIn = parseShownIn(fm.ShownIn)
   const resolvedShownIn = shownIn || existingShownIn
   if (resolvedShownIn) lines.push(`ShownIn: "${resolvedShownIn.replace(/"/g, "'")}"`)
 

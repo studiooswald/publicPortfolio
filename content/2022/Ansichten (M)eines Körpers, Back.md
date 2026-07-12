@@ -1,14 +1,12 @@
 ---
 Year: 2022
+Series: "Ansichten (M)eines Körpers"
+Dimensions: 120 x 100 cm
 Sold: Yes
 Price: € 1540
-Location: Gregor H. & Stefan G.
 Owner: Gregor H. & Stefan G.
-Dimensions: 120 x 100 cm
+Location: Gregor H. & Stefan G.
 Credit: Gregor Hofbauer
-Series: "Ansichten (M)eines Körpers"
-Instagram: Yes
-Instagram-Text: 
 cover: "/image-database/2022/peter-oswald,-ansichten-(m)eines-körpers---back,-2022-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["cotton", "graphite", "oil-color"]
 tags: ["cotton", "graphite", "oil-color"]

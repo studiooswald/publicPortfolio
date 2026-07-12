@@ -1,14 +1,12 @@
 ---
 Year: 2022
+Series: ""
+Dimensions: 70 x 50 cm
 Sold: Yes
 Price: € 740 (Gifted)
-Location: Sebastian Datzreiter
 Owner: Sebastian Datzreiter
-Dimensions: 70 x 50 cm
+Location: Sebastian Datzreiter
 Credit: Gregor Hofbauer
-Series: ""
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2022/peter-oswald,-untitled-05,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
 Material: ["acrylic-color", "cotton", "graphite"]
 tags: ["acrylic-color", "cotton", "graphite"]

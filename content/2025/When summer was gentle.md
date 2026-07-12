@@ -1,14 +1,12 @@
 ---
 Year: 2025
+Series: "When summer was gentle"
+Dimensions: 10 x 15 cm
 Sold: Yes
 Price: € 390
-Location: Diana Hark
 Owner: Courtesy of the Artist
-Dimensions: 10 x 15 cm
+Location: Diana Hark
 Credit: Gregor Hofbauer
-Series: "When summer was gentle"
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2025/peter-oswald,-when-summer-was-gentle-01,-2025-©-bildrecht,-wien-2025-–-foto-peter-oswald.jpg"
 Material: ["oil-color", "graphite", "mdf"]
 tags: ["oil-color", "graphite", "mdf"]

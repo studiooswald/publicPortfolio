@@ -1,14 +1,12 @@
 ---
 Year: 2024
+Series: ""
+Dimensions: 40 x 45,5 cm
 Sold: No
 Price: € 690
-Location: Studio
 Owner: Courtesy of the Artist
-Dimensions: 40 x 45,5 cm
+Location: Studio
 Credit: Gregor Hofbauer
-Series: ""
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2024/peter-oswald,-untitled-04,-2024-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "mdf"]
 tags: ["oil-color", "graphite", "mdf"]

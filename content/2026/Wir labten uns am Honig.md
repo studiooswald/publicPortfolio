@@ -1,15 +1,12 @@
 ---
 Year: 2026
+Series: a sense of finding home
+Dimensions: 24 x 27 x 4,5 cm  each
 Sold: No
 Price: € 960
-Location: Graz
 Owner: Courtesy of the Artist
-Dimensions: 24 x 27 x 4,5 cm  each
+Location: Graz
 Credit: Gerd Tschebular
-Series: a sense of finding home
-Instagram: No
-Instagram-Text: 
-Web-Image: /assets/media/2026/07/peter-oswald-the-weight-of-a-touch-2026.webp
 cover: "/image-database/2026/a-sense-of-finding-home/peter-oswald,-a-sense-of-finding-home-20,-2026-©-bildrecht,-wien-2026-–-foto-gerd-tschebular.jpg"
 Material: ["wood", "linen", "oil-color", "oil-pastel", "wax", "graphite"]
 tags: ["wood", "linen", "oil-color", "oil-pastel", "wax", "graphite"]

@@ -1,14 +1,12 @@
 ---
 Year: 2023
+Series: ""
+Dimensions: 120 x 140 cm
 Sold: No
 Price: € 1640
-Location: Studio
 Owner: Courtesy of the Artist
-Dimensions: 120 x 140 cm
+Location: Studio
 Credit: Gregor Hofbauer
-Series: ""
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2023/peter-oswald,-arbeit-05,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["linen", "oil-color", "graphite"]
 tags: ["linen", "oil-color", "graphite"]

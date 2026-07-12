@@ -1,14 +1,12 @@
 ---
 Year: 2023
+Series: ""
+Dimensions: 490 x 180 cm
 Sold: No
 Price: € 6000
-Location: at Home
 Owner: Courtesy of the Artist
-Dimensions: 490 x 180 cm
+Location: at Home
 Credit: Gregor Hofbauer
-Series: ""
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2023/peter-oswald,-perspektiven,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["linen", "oil-color", "graphite"]
 tags: ["linen", "oil-color", "graphite"]

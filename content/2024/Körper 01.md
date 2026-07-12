@@ -1,14 +1,12 @@
 ---
 Year: 2024
+Series: "an odd series of objects"
+Dimensions: 8,5 x 2,5 x 22 cm
 Sold: No
 Price: € 490
-Location: Studio
 Owner: Courtesy of the Artist
-Dimensions: 8,5 x 2,5 x 22 cm
+Location: Studio
 Credit: Peter Oswald
-Series: "an odd series of objects"
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2024/peter-oswald,-körper-01,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.jpg"
 Material: ["oil-color", "graphite", "brass", "wood"]
 tags: ["oil-color", "graphite", "brass", "wood"]

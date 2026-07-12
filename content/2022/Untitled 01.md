@@ -1,14 +1,12 @@
 ---
 Year: 2022
+Series: ""
+Dimensions: 120 x 100 cm ""
 Sold: No
 Price: € 1570
-Location: at Home
 Owner: Courtesy of the Artist
-Dimensions: 120 x 100 cm ""
+Location: at Home
 Credit: Gregor Hofbauer
-Series: ""
-Instagram: Yes
-Instagram-Text: 
 cover: "/image-database/2022/peter-oswald,-untitled-01,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
 Material: ["acrylic-color", "cotton", "graphite"]
 tags: ["acrylic-color", "cotton", "graphite"]

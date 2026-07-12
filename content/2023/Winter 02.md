@@ -1,14 +1,12 @@
 ---
 Year: 2023
+Series: "Winter"
+Dimensions: 60 x 80 cm
 Sold: No
 Price: € 690
-Location: Wien
 Owner: Courtesy of the Artist
-Dimensions: 60 x 80 cm
+Location: Wien
 Credit: Gregor Hofbauer
-Series: "Winter"
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2023/peter-oswald,-winter-02,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["linen", "oil-color", "graphite"]
 tags: ["linen", "oil-color", "graphite"]

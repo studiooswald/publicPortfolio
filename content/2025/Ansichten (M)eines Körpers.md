@@ -1,14 +1,12 @@
 ---
 Year: 2025
+Series: "Ansichten (M)eines Körpers"
+Dimensions: 49,5 x 119,5 cm
 Sold: No
 Price: € 1570
-Location: Studio
 Owner: Courtesy of the Artist
-Dimensions: 49,5 x 119,5 cm
+Location: Studio
 Credit: Gregor Hofbauer
-Series: "Ansichten (M)eines Körpers"
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2025/peter-oswald,-ansichten-(m)eines-körpers,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "fiberboard"]
 tags: ["oil-color", "graphite", "fiberboard"]

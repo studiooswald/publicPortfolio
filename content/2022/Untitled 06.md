@@ -1,14 +1,12 @@
 ---
 Year: 2022
+Series: ""
+Dimensions: 70 x 50 cm
 Sold: No
 Price: € 750
-Location: Unknown
 Owner: Chris Puntigam
-Dimensions: 70 x 50 cm
+Location: Unknown
 Credit: Gregor Hofbauer
-Series: ""
-Instagram: Yes
-Instagram-Text: 
 cover: "/image-database/2022/peter-oswald,-untitled-06,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
 Material: ["acrylic-color", "cotton", "graphite"]
 tags: ["acrylic-color", "cotton", "graphite"]

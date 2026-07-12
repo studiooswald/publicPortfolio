@@ -1,14 +1,12 @@
 ---
 Year: 2025
+Series: Skizze
+Dimensions: 16,5 x 18 x 3
 Sold: No
 Price: € 320
-Location: Studio
 Owner: Courtesy of the Artist
-Dimensions: 16,5 x 18 x 3
+Location: Studio
 Credit: Gregor Hofbauer
-Series: Skizze
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2025/peter-oswald,-skizze-02,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["canvas", "thread", "primer", "brass"]
 tags: ["canvas", "thread", "primer", "brass"]

@@ -1,14 +1,12 @@
 ---
 Year: 2022
+Series: ""
+Dimensions: 120 x 100 cm
 Sold: Yes
 Price: € 1540
-Location: Lisa Reiter
 Owner: Lisa Reiter
-Dimensions: 120 x 100 cm
+Location: Lisa Reiter
 Credit: Gregor Hofbauer
-Series: ""
-Instagram: Yes
-Instagram-Text: 
 cover: "/image-database/2022/peter-oswald,-untitled-03,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
 Material: ["acrylic-color", "cotton", "graphite"]
 tags: ["acrylic-color", "cotton", "graphite"]

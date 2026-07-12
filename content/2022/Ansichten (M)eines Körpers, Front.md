@@ -1,14 +1,12 @@
 ---
 Year: 2022
+Series: Ansichten (M)eines Körpers
+Dimensions: 120 x 100 cm
 Sold: No
 Price: € 1570
-Location: Studio
 Owner: Courtesy of the Artist
-Dimensions: 120 x 100 cm
+Location: Studio
 Credit: Gregor Hofbauer
-Series: "Ansichten (M)eines Körpers"
-Instagram: No
-Instagram-Text: 
 cover: "/image-database/2022/peter-oswald,-ansichten-(m)eines-körpers---front,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
 ---
 
