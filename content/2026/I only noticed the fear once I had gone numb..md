@@ -8,6 +8,8 @@ Owner: Courtesy of the Artist
 Location: Studio
 Credit: Peter Oswald
 cover: "/image-database/2026/peter-oswald,-i-only-notice-the-fear-once-i’ve-gone-numb,-2026-©-bildrecht,-wien-2026-–-foto-peter-oswald.jpg"
+Material: ["BodyOfWork"]
+tags: ["BodyOfWork"]
 ---
 
 ![[Peter Oswald, I only notice the fear once I’ve gone numb, 2026 © Bildrecht, Wien 2026 – Foto Peter Oswald.JPG]]

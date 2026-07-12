@@ -8,6 +8,8 @@ Owner: Courtesy of the Artist
 Location: Studio
 Credit: Peter Oswald
 cover: "/image-database/2026/peter-oswald,-thanks-for-holding-space,-2026-©-bildrecht,-wien-2026-–-foto-peter-oswald.jpg"
+Material: ["BodyOfWork"]
+tags: ["BodyOfWork"]
 ---
 
 ![[Image Database/2026/Peter Oswald, Thanks for Holding Space, 2026 © Bildrecht, Wien 2026 – Foto Peter Oswald.jpg]]

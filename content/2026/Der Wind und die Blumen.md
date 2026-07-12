@@ -8,6 +8,8 @@ Owner: Courtesy of the Artist
 Location: Graz
 Credit: Gerd Tschebular
 cover: "/image-database/2026/a-sense-of-finding-home/peter-oswald,-a-sense-of-finding-home-13,-2026-©-bildrecht,-wien-2026-–-foto-gerd-tschebular.jpg"
+Material: ["wood", "linen", "wax", "oil-color", "oil-pastel", "graphite"]
+tags: ["wood", "linen", "wax", "oil-color", "oil-pastel", "graphite"]
 ---
 
 ![[Peter Oswald, A sense of finding home 13, 2026 © Bildrecht, Wien 2026 – Foto Gerd Tschebular.jpg]]

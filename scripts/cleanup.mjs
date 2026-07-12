@@ -82,7 +82,8 @@ function parseShownIn(val) {
   const stripped = val.replace(/^["']+|["']+$/g, '').trim()
   if (!stripped || stripped === '[]') return ''
   // Extract [[wikilink]] targets directly (avoids splitting on commas inside names)
-  const wikilinks = [...stripped.matchAll(/\[\[([^\]]+)\]\]/g)].map(m => m[1].trim())
+  const wikilinks = [...stripped.matchAll(/\[\[([^\]]+)\]\]/g)]
+    .map(m => m[1].replace(/^\d{2}\s*[-–]\s*/, '').trim())
   if (wikilinks.length > 0) return wikilinks.join(' · ')
   // Plain string fallback (no wikilinks)
   return stripped.replace(/^\[|\]$/g, '').replace(/^["']+|["']+$/g, '')
