@@ -238,7 +238,9 @@ layout:
         beforeBody: []
         left: []
         right: []
-    content: {}
+    content:
+      exclude:
+        - tag-list
     folder:
       exclude:
         - reader-mode
