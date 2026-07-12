@@ -72,12 +72,18 @@ function extractCover(body) {
   return imageIndex.get(basename) ?? null
 }
 
-// Extract text from a ### Section: block
-function extractSection(body, sectionName) {
-  const re = new RegExp(`^### ${sectionName}:\\s*\\r?\\n([\\s\\S]*?)(?=^###|\\Z)`, 'm')
-  const m = body.match(re)
-  if (!m) return ''
-  return m[1].replace(/^---\s*$/gm, '').replace(/#BodyOfWork\s*/g, '').trim()
+// Extract exhibition names from ### Shown in: wikilinks like [[24 - Kabuff Graz, X]]
+// Also finds orphaned wikilinks in body (from previous cleanup runs)
+function extractShownIn(body) {
+  // Try the section first
+  const sectionRe = /^### Shown in:\s*\r?\n([\s\S]*?)(?=\n###|\n---)/m
+  const section = body.match(sectionRe)?.[1] ?? ''
+  // Fall back: find ALL wikilinks that look like exhibition references (start with digits like [[24 - ]])
+  const searchArea = section || body
+  const exhibitions = [...searchArea.matchAll(/\[\[(\d{2}\s*[-–][^\]]+)\]\]/g)]
+    .map(x => x[1].replace(/^\d{2}\s*[-–]\s*/, '').trim())
+    .filter(Boolean)
+  return [...new Set(exhibitions)].join(' · ')
 }
 
 function cleanBody(body) {
@@ -87,6 +93,8 @@ function cleanBody(body) {
       const trimmed = content.trim()
       return trimmed ? trimmed + '\n\n' : ''
     })
+    // Remove exhibition wikilink lines like "- [[24 - J. Hornig]]" left over from Shown in section
+    .replace(/^-?\s*\[\[\d{2}\s*[-–][^\]]+\]\]\s*$/gm, '')
     .replace(/^#[A-Za-z][a-zA-Z-]+(\s+#[A-Za-z][a-zA-Z-]+)*\s*$/gm, '')
     .replace(/^#BodyOfWork\s*$/gm, '')
     .replace(/^Instagram(-Text)?:.*$/gm, '')
@@ -114,15 +122,19 @@ function buildFrontmatter(fm, materials, cover, shownIn) {
     lines.push(`${k}: ${v}`)
   }
 
-  if (cover && !fm.cover) lines.push(`cover: "${cover}"`)
+  const resolvedCover = cover || fm.cover
+  if (resolvedCover) lines.push(`cover: "${resolvedCover}"`)
   if (allMaterials.length) {
     lines.push(`Material: [${allMaterials.map(t => `"${t}"`).join(', ')}]`)
     // Also keep tags: for Quartz tag-page browsing
     lines.push(`tags: [${allMaterials.map(t => `"${t}"`).join(', ')}]`)
   }
 
-  const resolvedShownIn = shownIn || fm.ShownIn || ''
-  if (resolvedShownIn) lines.push(`ShownIn: "${resolvedShownIn.replace(/"/g, '\\"')}"`)
+  // Strip all surrounding/inner quote layers from existing ShownIn (avoid double-escaping on repeat runs)
+  const existingShownIn = (fm.ShownIn || '').replace(/^["']+|["']+$/g, '').replace(/\\"/g, '"').replace(/^["']+|["']+$/g, '')
+  const resolvedShownIn = shownIn || existingShownIn
+  if (resolvedShownIn) lines.push(`ShownIn: "${resolvedShownIn.replace(/"/g, "'")}"`)
+
 
   lines.push('---')
   return lines.join('\n') + '\n'
@@ -136,7 +148,7 @@ for (const file of walk(contentDir)) {
 
   const materials = extractMaterialsFromBody(body)
   const cover = extractCover(body)
-  const shownIn = extractSection(body, 'Shown in')
+  const shownIn = extractShownIn(body)
   const cleanedBody = cleanBody(body)
 
   const newFm = buildFrontmatter(fm, materials, cover, shownIn)

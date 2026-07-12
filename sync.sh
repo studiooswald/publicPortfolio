@@ -13,10 +13,14 @@ rsync -a --delete \
   "$VAULT/Body of Work/" \
   "$QUARTZ/content/"
 
-echo "→ Syncing images..."
-rsync -a --delete \
+echo "→ Syncing images (new only)..."
+rsync -a \
   "$VAULT/Image Database/" \
   "$QUARTZ/content/Image Database/"
+
+# Restore already-committed images to their compressed git versions
+# (prevents iCloud stubs or uncompressed originals from overwriting what's in git)
+git -C "$QUARTZ" restore "content/Image Database/" 2>/dev/null || true
 
 echo "→ Compressing images..."
 node "$QUARTZ/scripts/compress.mjs"
