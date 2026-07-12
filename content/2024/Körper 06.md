@@ -9,7 +9,7 @@ Credit: Gregor Hofbauer
 Series: "an odd series of objects"
 Instagram: No
 Instagram-Text: 
-cover: "/image-database/2024/peter-oswald,-körper-06,-2024-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
+cover: "/image-database/2024/peter-oswald,-körper-06,-2024-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 tags: ["oil-color", "mdf", "graphite"]
 ---
 

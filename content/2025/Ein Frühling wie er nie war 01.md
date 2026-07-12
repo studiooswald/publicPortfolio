@@ -9,7 +9,7 @@ Credit: Peter Oswald
 Series: "Ein Frühling wie er nie war"
 Instagram: No
 Instagram-Text: 
-cover: "/image-database/2025/peter-oswald,-ein-frühling-wie-er-nie-war,-2025-©-bildrecht,-wien-2025---foto-peter-oswald---02.jpg"
+cover: "/image-database/2025/peter-oswald,-ein-frühling-wie-er-nie-war,-2025-©-bildrecht,-wien-2025---foto-peter-oswald---02.jpg"
 tags: ["oil-color", "graphite", "jute", "redwing"]
 ---
 

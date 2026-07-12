@@ -68,7 +68,7 @@ export const PageList: QuartzComponent = ({
                 }
               </div>
               <div class="artwork-info">
-                <h3>{title}</h3>
+                <p class="artwork-title">{title}</p>
                 <p class="artwork-meta">
                   {year && <span>{year}</span>}
                   {dimensions && <span>{dimensions}</span>}
@@ -97,6 +97,15 @@ PageList.css = `
 
 .artwork-card {
   display: block;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--light);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  transition: box-shadow 0.2s ease;
+}
+
+.artwork-card:hover {
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
 }
 
 .artwork-link {
@@ -107,23 +116,21 @@ PageList.css = `
 
 .artwork-thumb {
   width: 100%;
-  aspect-ratio: 3/4;
+  aspect-ratio: 4/5;
   overflow: hidden;
-  border-radius: 4px;
   background: var(--lightgray);
-  margin-bottom: 0.6rem;
 }
 
 .artwork-thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
+  object-fit: contain;
   display: block;
+  transition: transform 0.3s ease;
 }
 
 .artwork-link:hover .artwork-thumb img {
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 .artwork-thumb-placeholder {
@@ -132,14 +139,22 @@ PageList.css = `
   background: var(--lightgray);
 }
 
-.artwork-info h3 {
-  margin: 0 0 0.2rem;
-  font-size: 0.95rem;
+.artwork-info {
+  padding: 0.7rem 0.8rem 0.6rem;
+  background: var(--lightgray);
+  border-top: 1px solid var(--lightgray);
+}
+
+.artwork-title {
+  margin: 0 0 0.25rem;
+  font-size: 0.88rem;
+  font-weight: 600;
   line-height: 1.3;
+  color: var(--dark);
 }
 
 .artwork-meta {
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: var(--darkgray);
   margin: 0;
   display: flex;
@@ -153,15 +168,16 @@ PageList.css = `
 }
 
 .artwork-tags {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--gray);
-  margin: 0.2rem 0 0;
+  margin: 0.25rem 0 0;
+  text-transform: lowercase;
 }
 
 @media (max-width: 600px) {
   .artwork-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 0.75rem;
   }
 }
 `;

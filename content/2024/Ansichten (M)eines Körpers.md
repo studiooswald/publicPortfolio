@@ -9,7 +9,7 @@ Credit: Peter Oswald
 Series: "Ansichten (M)eines Körpers"
 Instagram: No
 Instagram-Text: 
-cover: "/image-database/2024/peter-oswald,-ansichten-(m)eines-körpers,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.png"
+cover: "/image-database/2024/peter-oswald,-ansichten-(m)eines-körpers,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.png"
 tags: ["oil-color", "linen", "graphite"]
 ---
 

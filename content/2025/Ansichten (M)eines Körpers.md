@@ -9,7 +9,7 @@ Credit: Gregor Hofbauer
 Series: "Ansichten (M)eines Körpers"
 Instagram: No
 Instagram-Text: 
-cover: "/image-database/2025/peter-oswald,-ansichten-(m)eines-körpers,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
+cover: "/image-database/2025/peter-oswald,-ansichten-(m)eines-körpers,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 tags: ["oil-color", "graphite", "fiberboard"]
 ---
 

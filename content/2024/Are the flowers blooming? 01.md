@@ -14,5 +14,4 @@ tags: ["oil-color", "graphite", "mdf"]
 ---
 
 ![[Image Database/2024/Peter Oswald, Are the Flowers Blooming? 01, 2024 © Bildrecht, Wien 2025 – Foto Peter Oswald.jpg]]
-
 - [[24 - Kabuff Graz, Guests among Friends]]
