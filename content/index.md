@@ -1,5 +1,5 @@
 ---
-title: Studio Oswald — Archiv
+title: Studio Oswald
 ---
 
 Werkverzeichnis von Peter Oswald.

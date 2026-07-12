@@ -10,7 +10,7 @@ configuration:
   ignorePatterns:
     - .obsidian
     - "*.canvas"
-    - "Series"
+    - Series
     - "Body of Work.md"
   theme:
     fontOrigin: googleFonts
