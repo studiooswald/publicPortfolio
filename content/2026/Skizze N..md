@@ -1,7 +1,7 @@
 ---
 Year: 2026
 Sold: Yes
-Price: —
+Price: € 1500
 Location: Graz
 Owner: Isabel Garger
 Dimensions: 27 x 24 x 4,5 cm

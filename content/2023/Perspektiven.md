@@ -1,9 +1,9 @@
 ---
 Year: 2023
-Sold: Yes
+Sold: No
 Price: € 6000
-Location: Tischlerei Helmut Erjavec
-Owner: Edith Erjavec
+Location: at Home
+Owner: Courtesy of the Artist
 Dimensions: 490 x 180 cm
 Credit: Gregor Hofbauer
 Series: ""

@@ -1,7 +1,7 @@
 ---
 Year: 2026
 Sold: No
-Price: —
+Price: € 960
 Location: Graz
 Owner: Courtesy of the Artist
 Dimensions: 24 x 27 x 4,5 cm  each

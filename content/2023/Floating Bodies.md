@@ -1,6 +1,6 @@
 ---
 Year: 2023
-Sold: Yes
+Sold: No
 Price: € 580
 Location: Studio
 Owner: Courtesy of the Artist
