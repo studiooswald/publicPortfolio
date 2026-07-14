@@ -5,7 +5,7 @@ Dimensions: 40 x 50 cm
 Sold: Yes
 Price: € 550
 Owner: Maria R.
-Location: Maria Rautner
+Location: Maria R.
 Credit: Peter Oswald
 cover: "/image-database/2025/peter-oswald,-ein-frühling-wie-er-nie-war,-2025-©-bildrecht,-wien-2025---foto-peter-oswald---02.jpg"
 Material: ["oil-color", "graphite", "jute", "redwing"]

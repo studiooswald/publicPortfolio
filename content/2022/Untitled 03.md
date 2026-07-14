@@ -5,7 +5,7 @@ Dimensions: 120 x 100 cm
 Sold: Yes
 Price: € 1540
 Owner: Lisa R.
-Location: Lisa Reiter
+Location: Lisa R.
 Credit: Gregor Hofbauer
 cover: "/image-database/2022/peter-oswald,-untitled-03,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
 Material: ["cotton", "graphite", "oil-color"]

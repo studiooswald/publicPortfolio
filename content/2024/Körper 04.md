@@ -5,7 +5,7 @@ Dimensions: 9,5 x 2,1 x 27 cm
 Sold: Yes
 Price: € 470 (verkauft für 315)
 Owner: Courtesy of the Artist
-Location: Paul Bernhard
+Location: Paul B.
 Credit: Gregor Hofbauer
 cover: "/image-database/2024/peter-oswald,-körper-04,-2024-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "brass", "wood"]

@@ -5,7 +5,7 @@ Dimensions: 50 x 60 cm
 Sold: Yes
 Price: € 680
 Owner: Nicole P. & Marcel S.
-Location: Nicole Perner & Marcel Schreiber
+Location: Nicole P. & Marcel S.
 Credit: Peter Oswald
 cover: "/image-database/2024/peter-oswald,-are-the-flowers-blooming?-03,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.png"
 Material: ["oil-color", "graphite", "linen"]

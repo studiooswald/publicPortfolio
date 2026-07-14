@@ -5,7 +5,7 @@ Dimensions: 10 x 15 cm
 Sold: Yes
 Price: € 390
 Owner: Courtesy of the Artist
-Location: Diana Hark
+Location: Diana H.
 Credit: Gregor Hofbauer
 cover: "/image-database/2025/peter-oswald,-when-summer-was-gentle-01,-2025-©-bildrecht,-wien-2025-–-foto-peter-oswald.jpg"
 Material: ["oil-color", "graphite", "mdf"]
