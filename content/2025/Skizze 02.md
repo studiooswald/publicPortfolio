@@ -6,7 +6,7 @@ Sold: No
 Price: € 320
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Gregor Hofbauer
+Credit: Gregor H.
 cover: "/image-database/2025/peter-oswald,-skizze-02,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["canvas", "thread", "primer", "brass"]
 tags: ["canvas", "thread", "primer", "brass"]

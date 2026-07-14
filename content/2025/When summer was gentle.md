@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 390
 Owner: Courtesy of the Artist
 Location: Diana Hark
-Credit: Gregor Hofbauer
+Credit: Gregor H.
 cover: "/image-database/2025/peter-oswald,-when-summer-was-gentle-01,-2025-©-bildrecht,-wien-2025-–-foto-peter-oswald.jpg"
 Material: ["oil-color", "graphite", "mdf"]
 tags: ["oil-color", "graphite", "mdf"]

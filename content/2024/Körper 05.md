@@ -6,7 +6,7 @@ Sold: No
 Price: € 470
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Gregor Hofbauer
+Credit: Gregor H.
 cover: "/image-database/2024/peter-oswald,-körper-05,-2024-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "brass", "wood"]
 tags: ["oil-color", "graphite", "brass", "wood"]

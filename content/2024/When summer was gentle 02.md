@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 1680
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Gregor Hofbauer
+Credit: Gregor H.
 BidStartPrice: € 850
 cover: "/image-database/2024/peter-oswald,-when-summer-was-gentle-02,-2024-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "linen", "oil-pastel"]

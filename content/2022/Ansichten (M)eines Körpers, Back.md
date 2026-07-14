@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 1540
 Owner: Gregor H. & Stefan G.
 Location: Gregor H. & Stefan G.
-Credit: Gregor Hofbauer
+Credit: Gregor H.
 cover: "/image-database/2022/peter-oswald,-ansichten-(m)eines-körpers---back,-2022-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["cotton", "graphite", "oil-color"]
 tags: ["cotton", "graphite", "oil-color"]

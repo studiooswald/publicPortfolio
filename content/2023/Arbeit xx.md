@@ -4,9 +4,9 @@ Series: fleeting Bodies
 Dimensions: 40 x 50 cm
 Sold: Yes
 Price: € 550 (Gifted)
-Owner: Marieke van Kan
+Owner: Marieke van K.
 Location: Wien
-Credit: Gregor Hofbauer
+Credit: Gregor H.
 cover: "/image-database/2023/peter-oswald,-arbeit-xx,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["linen", "oil-color", "graphite"]
 tags: ["linen", "oil-color", "graphite"]

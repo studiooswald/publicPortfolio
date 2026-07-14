@@ -4,9 +4,9 @@ Series: Are the Flowers blooming?
 Dimensions: 50 x 60 cm
 Sold: Yes
 Price: € 680
-Owner: Diana Hark
+Owner: Diana H.
 Location: Diana Hark
-Credit: Peter Oswald
+Credit: Peter O.
 cover: "/image-database/2024/peter-oswald,-are-the-flowers-blooming?-02,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.png"
 Material: ["oil-color", "graphite", "linen"]
 tags: ["oil-color", "graphite", "linen"]

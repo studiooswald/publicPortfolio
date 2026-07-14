@@ -6,7 +6,7 @@ Sold: No
 Price: € 390
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Peter Oswald
+Credit: Peter O.
 cover: "/image-database/2024/peter-oswald,-untitled-03-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.png"
 Material: ["oil-color", "graphite", "wood"]
 tags: ["oil-color", "graphite", "wood"]

@@ -6,7 +6,7 @@ Sold: No
 Price: € 690
 Owner: Courtesy of the Artist
 Location: Wien
-Credit: Gregor Hofbauer
+Credit: Gregor H.
 cover: "/image-database/2023/peter-oswald,-winter-01,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "cotton"]
 tags: ["oil-color", "graphite", "cotton"]

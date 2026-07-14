@@ -4,9 +4,9 @@ Series: Zyklus Phi
 Dimensions: 70 x 50 cm
 Sold: Yes
 Price: € 740 (Gifted)
-Owner: Sebastian Datzreiter
+Owner: Sebastian D.
 Location: Sebastian Datzreiter
-Credit: Gregor Hofbauer
+Credit: Gregor H.
 cover: "/image-database/2022/peter-oswald,-untitled-05,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
 Material: ["cotton", "graphite", "oil-color"]
 tags: ["cotton", "graphite", "oil-color"]

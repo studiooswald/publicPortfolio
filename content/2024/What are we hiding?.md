@@ -6,7 +6,7 @@ Sold: No
 Price: € 640
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Peter Oswald
+Credit: Peter O.
 cover: "/image-database/2024/peter-oswald,-what-are-we-hiding?,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.jpg"
 Material: ["oil-color", "graphite", "mdf"]
 tags: ["oil-color", "graphite", "mdf"]

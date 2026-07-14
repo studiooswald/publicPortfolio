@@ -6,7 +6,7 @@ Sold: No
 Price: € 2640
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Peter Oswald
+Credit: Peter O.
 cover: "/image-database/2026/peter-oswald,-the-weight-of-a-touch,-2026-©-bildrecht,-wien-2026-–-foto-peter-oswald.jpg"
 Material: ["linen", "tape", "graphite", "oil-color"]
 tags: ["linen", "tape", "graphite", "oil-color"]

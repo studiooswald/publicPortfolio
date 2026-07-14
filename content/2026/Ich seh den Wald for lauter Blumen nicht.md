@@ -6,7 +6,7 @@ Sold: No
 Price: € 670
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Peter Oswald
+Credit: Peter O.
 cover: "/image-database/2026/peter-oswald,-ich-seh-den-wald-for-lauter-blumen-nicht,-2026-©-bildrecht,-wien-2026-–-foto-peter-oswald.jpg"
 Material: ["linen", "oil-color", "graphite"]
 tags: ["linen", "oil-color", "graphite"]

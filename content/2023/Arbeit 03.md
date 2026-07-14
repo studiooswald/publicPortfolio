@@ -4,9 +4,9 @@ Series: fleeting Bodies
 Dimensions: 40 x 50 cm
 Sold: Yes
 Price: € 550
-Owner: Kai Schmoll
+Owner: Kai S.
 Location: Köln
-Credit: Gregor Hofbauer
+Credit: Gregor H.
 cover: "/image-database/2023/peter-oswald,-arbeit-03,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["linen", "oil-color", "graphite"]
 tags: ["linen", "oil-color", "graphite"]

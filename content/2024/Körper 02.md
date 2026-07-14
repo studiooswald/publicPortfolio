@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 380
 Owner: Gregor H. & Stefan G.
 Location: Gregor H. & Stefan G.
-Credit: Peter Oswald
+Credit: Peter O.
 cover: "/image-database/2024/peter-oswald,-körper-02,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.jpeg"
 Material: ["oil-color", "graphite", "brass", "wood"]
 tags: ["oil-color", "graphite", "brass", "wood"]
