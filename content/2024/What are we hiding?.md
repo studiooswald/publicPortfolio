@@ -10,6 +10,7 @@ Credit: Peter Oswald
 cover: "/image-database/2024/peter-oswald,-what-are-we-hiding?,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.jpg"
 Material: ["oil-color", "graphite", "mdf"]
 tags: ["oil-color", "graphite", "mdf"]
+ShownIn: "Atrium Acht, Fiona Buttazzoni, Benjamin Thiele, Peter Oswald"
 ---
 
 ![[Peter Oswald, What are we hiding?, 2024 © Bildrecht, Wien 2025 – Foto Peter Oswald.jpg]]
