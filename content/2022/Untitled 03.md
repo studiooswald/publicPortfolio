@@ -1,6 +1,6 @@
 ---
 Year: 2022
-Series: ""
+Series: Zyklus Phi
 Dimensions: 120 x 100 cm
 Sold: Yes
 Price: € 1540

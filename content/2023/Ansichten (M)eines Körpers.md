@@ -1,6 +1,6 @@
 ---
 Year: 2023
-Series: "Ansichten (M)eines Körpers"
+Series: Ansichten (M)eines Körpers
 Dimensions: 100 x 80 cm
 Sold: No
 Price: € 1430
@@ -8,8 +8,8 @@ Owner: Courtesy of the Artist
 Location: Studio
 Credit: Gregor Hofbauer
 cover: "/image-database/2023/peter-oswald,-ansichten-(m)eines-körpers,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
-Material: ["acrylic-color", "oil-color", "graphite"]
-tags: ["acrylic-color", "oil-color", "graphite"]
+Material: ["oil-color", "graphite", "linen"]
+tags: ["oil-color", "graphite", "linen"]
 ShownIn: "J. Hornig · Narrenkastl"
 ---
 

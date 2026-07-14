@@ -1,6 +1,6 @@
 ---
 Year: 2024
-Series: an odd series of objects
+Series: Are the Flowers blooming?
 Dimensions: 15,5 x 20 x 2 cm
 Sold: Verschenkt
 Price: € 490

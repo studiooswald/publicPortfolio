@@ -8,8 +8,8 @@ Owner: Sara Reisinger
 Location: Wien
 Credit: Gregor Hofbauer
 cover: "/image-database/2023/peter-oswald,-sitzend,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
-Material: ["linen", "oil-color", "graphite"]
-tags: ["linen", "oil-color", "graphite"]
+Material: ["oil-color", "graphite", "cotton"]
+tags: ["oil-color", "graphite", "cotton"]
 ---
 
 ![[Image Database/2023/Peter Oswald, Sitzend, 2023 © Bildrecht, Wien 2024 – Foto Gregor Hofbauer.jpg]]

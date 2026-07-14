@@ -1,6 +1,6 @@
 ---
 Year: 2023
-Series: ""
+Series: fleeting Bodies
 Dimensions: 40 x 50 cm
 Sold: Yes
 Price: € 550 (Gifted)

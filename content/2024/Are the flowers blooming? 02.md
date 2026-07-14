@@ -1,6 +1,6 @@
 ---
 Year: 2024
-Series: "an odd series of objects"
+Series: Are the Flowers blooming?
 Dimensions: 50 x 60 cm
 Sold: Yes
 Price: € 680

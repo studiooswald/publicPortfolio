@@ -1,6 +1,6 @@
 ---
 Year: 2023
-Series: ""
+Series: fleeting Bodies
 Dimensions: 120 x 140 cm
 Sold: No
 Price: € 1640

@@ -104,6 +104,19 @@ WHERE Series = "Skizze"
 SORT Year DESC
 ```
 
+## a sense of finding home
+
+```dataview
+TABLE WITHOUT ID
+	embed(link(file.outlinks[0])) as "Vorschau",
+	file.link as "Werk",
+	Year,
+	Sold
+FROM #BodyOfWork
+WHERE Series = "a sense of finding home"
+SORT Year DESC
+```
+
 ## Werke ohne Serie
 
 ```dataview
