@@ -6,7 +6,7 @@ Sold: No
 Price: € 1570
 Owner: Courtesy of the Artist
 Location: at Home
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2022/peter-oswald,-untitled-01,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
 Material: ["acrylic-color", "cotton", "graphite", "oil-color"]
 tags: ["acrylic-color", "cotton", "graphite", "oil-color"]

@@ -6,7 +6,7 @@ Sold: No
 Price: € 2040
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2025/peter-oswald,-dissociation-04-,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "linen"]
 tags: ["oil-color", "graphite", "linen"]

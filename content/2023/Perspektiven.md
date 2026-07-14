@@ -6,7 +6,7 @@ Sold: No
 Price: € 6000
 Owner: Courtesy of the Artist
 Location: at Home
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2023/peter-oswald,-perspektiven,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["linen", "oil-color", "graphite"]
 tags: ["linen", "oil-color", "graphite"]

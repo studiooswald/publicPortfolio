@@ -6,7 +6,7 @@ Sold: No
 Price: € 750
 Owner: Chris P.
 Location: Unknown
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2022/peter-oswald,-untitled-06,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
 Material: ["acrylic-color", "cotton", "graphite", "oil-color"]
 tags: ["acrylic-color", "cotton", "graphite", "oil-color"]

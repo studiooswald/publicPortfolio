@@ -6,7 +6,7 @@ Sold: No
 Price: € 1930
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2025/peter-oswald,-wo-du-bist,-will-ich-sein,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "canvas"]
 tags: ["oil-color", "graphite", "canvas"]

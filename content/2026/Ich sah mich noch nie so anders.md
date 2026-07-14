@@ -6,7 +6,7 @@ Sold: No
 Price: € 960
 Owner: Courtesy of the Artist
 Location: Graz
-Credit: Gerd T.
+Credit: Gerd Tschebular
 cover: "/image-database/2026/a-sense-of-finding-home/peter-oswald,-a-sense-of-finding-home-19,-2026-©-bildrecht,-wien-2026-–-foto-gerd-tschebular.jpg"
 Material: ["wood", "linen", "oil-color", "oil-pastel", "wax", "graphite"]
 tags: ["wood", "linen", "oil-color", "oil-pastel", "wax", "graphite"]

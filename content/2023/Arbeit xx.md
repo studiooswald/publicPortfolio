@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 550 (Gifted)
 Owner: Marieke van K.
 Location: Wien
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2023/peter-oswald,-arbeit-xx,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["linen", "oil-color", "graphite"]
 tags: ["linen", "oil-color", "graphite"]

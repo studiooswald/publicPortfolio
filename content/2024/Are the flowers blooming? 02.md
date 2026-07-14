@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 680
 Owner: Diana H.
 Location: Diana Hark
-Credit: Peter O.
+Credit: Peter Oswald
 cover: "/image-database/2024/peter-oswald,-are-the-flowers-blooming?-02,-2024-©-bildrecht,-wien-2025-–-foto-peter-oswald.png"
 Material: ["oil-color", "graphite", "linen"]
 tags: ["oil-color", "graphite", "linen"]

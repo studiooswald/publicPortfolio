@@ -6,7 +6,7 @@ Sold: No
 Price: € 1770
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2025/peter-oswald,-immer-zu-viel,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "plywood"]
 tags: ["oil-color", "graphite", "plywood"]

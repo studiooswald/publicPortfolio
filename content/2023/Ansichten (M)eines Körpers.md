@@ -6,7 +6,7 @@ Sold: No
 Price: € 1430
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2023/peter-oswald,-ansichten-(m)eines-körpers,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "linen"]
 tags: ["oil-color", "graphite", "linen"]

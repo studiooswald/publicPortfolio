@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 470 (verkauft für 315)
 Owner: Courtesy of the Artist
 Location: Paul Bernhard
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2024/peter-oswald,-körper-04,-2024-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "brass", "wood"]
 tags: ["oil-color", "graphite", "brass", "wood"]

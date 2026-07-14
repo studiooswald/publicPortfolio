@@ -6,7 +6,7 @@ Sold: No
 Price: € 1310
 Owner: Courtesy of the Artist
 Location: Laura Ginther
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2022/peter-oswald,-untitled-04,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
 Material: ["cotton", "graphite", "oil-color"]
 tags: ["cotton", "graphite", "oil-color"]

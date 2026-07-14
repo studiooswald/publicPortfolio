@@ -6,7 +6,7 @@ Sold: No
 Price: € 1470
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2025/peter-oswald,-whenever-i-get-lost,-i-take-a-breath-02,-2025-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "sand", "fiberboard", "gesso"]
 tags: ["oil-color", "graphite", "sand", "fiberboard", "gesso"]

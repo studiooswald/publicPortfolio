@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 1500
 Owner: Isabel G.
 Location: Graz
-Credit: Gerd T.
+Credit: Gerd Tschebular
 cover: "/image-database/2026/a-sense-of-finding-home/peter-oswald,-a-sense-of-finding-home-12,-2026-©-bildrecht,-wien-2026-–-foto-gerd-tschebular.jpg"
 Material: ["wood", "linen", "oil-color", "oil-pastel", "wax", "graphite"]
 tags: ["wood", "linen", "oil-color", "oil-pastel", "wax", "graphite"]

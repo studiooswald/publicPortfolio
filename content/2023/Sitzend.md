@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 2100 (Gifted)
 Owner: Sara R.
 Location: Wien
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2023/peter-oswald,-sitzend,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "cotton"]
 tags: ["oil-color", "graphite", "cotton"]

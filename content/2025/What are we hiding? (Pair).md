@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 640 (each)
 Owner: Diana H.
 Location: Diana Hark
-Credit: Peter O.
+Credit: Peter Oswald
 cover: "/image-database/2025/peter-oswald,-what-are-we-hiding?-pair,-2025-©-bildrecht,-wien-2025-–-foto-peter-oswald.jpg"
 Material: ["oil-color", "graphite", "mdf"]
 tags: ["oil-color", "graphite", "mdf"]

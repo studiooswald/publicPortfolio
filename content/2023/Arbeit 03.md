@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 550
 Owner: Kai S.
 Location: Köln
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2023/peter-oswald,-arbeit-03,-2023-©-bildrecht,-wien-2024-–-foto-gregor-hofbauer.jpg"
 Material: ["linen", "oil-color", "graphite"]
 tags: ["linen", "oil-color", "graphite"]

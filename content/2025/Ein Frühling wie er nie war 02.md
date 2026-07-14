@@ -6,7 +6,7 @@ Sold: No
 Price: € 670
 Owner: Courtesy of the Artist
 Location: Studio
-Credit: Peter O.
+Credit: Peter Oswald
 cover: "/image-database/2025/peter-oswald,-ein-frühling-wie-er-nie-war,-2025-©-bildrecht,-wien-2025---foto-peter-oswald---01.jpg"
 Material: ["oil-color", "graphite", "jute"]
 tags: ["oil-color", "graphite", "jute"]

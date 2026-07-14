@@ -6,7 +6,7 @@ Sold: Yes
 Price: € 680
 Owner: Marlene P.
 Location: Studio
-Credit: Gregor H.
+Credit: Gregor Hofbauer
 cover: "/image-database/2024/peter-oswald,-when-summer-was-gentle-01,-2024-©-bildrecht,-wien-2025-–-foto-gregor-hofbauer.jpg"
 Material: ["oil-color", "graphite", "linen"]
 tags: ["oil-color", "graphite", "linen"]
