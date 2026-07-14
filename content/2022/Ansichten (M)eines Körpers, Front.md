@@ -8,8 +8,8 @@ Owner: Courtesy of the Artist
 Location: Studio
 Credit: Gregor Hofbauer
 cover: "/image-database/2022/peter-oswald,-ansichten-(m)eines-körpers---front,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
-Material: ["BodyOfWork"]
-tags: ["BodyOfWork"]
+Material: ["cotton", "graphite", "oil-color"]
+tags: ["cotton", "graphite", "oil-color"]
 ---
 
 ![[Image Database/2022/Peter Oswald, Ansichten (M)eines Körpers - Front, 2022 © Bildrecht, Wien 2022 – Foto Gregor Hofbauer.jpg]]

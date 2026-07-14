@@ -8,8 +8,8 @@ Owner: Courtesy of the Artist
 Location: Laura Ginther
 Credit: Gregor Hofbauer
 cover: "/image-database/2022/peter-oswald,-untitled-04,-2022-©-bildrecht,-wien-2022-–-foto-gregor-hofbauer.jpg"
-Material: ["acrylic-color", "cotton", "graphite"]
-tags: ["acrylic-color", "cotton", "graphite"]
+Material: ["cotton", "graphite", "oil-color"]
+tags: ["cotton", "graphite", "oil-color"]
 ---
 
 ![[Image Database/2022/Peter Oswald, Untitled 04, 2022 © Bildrecht, Wien 2022 – Foto Gregor Hofbauer.jpg]]
