@@ -1,6 +1,6 @@
 ---
 Year: 2026
-Series: Varnitas
+Series: Vanitas
 Dimensions: 
 Sold: No
 Price: € 960
