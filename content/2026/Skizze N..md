@@ -1,6 +1,6 @@
 ---
 Year: 2026
-Series: a sense of finding home
+Series: Skizze
 Dimensions: 27 x 24 x 4,5 cm
 Sold: Yes
 Price: € 1500

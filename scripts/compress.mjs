@@ -3,7 +3,7 @@ import sharp from '../node_modules/sharp/lib/index.js'
 import fs from 'fs'
 import path from 'path'
 
-const imgDir = path.join(process.cwd(), 'content/Image Database')
+const imgDir = path.join(path.dirname(new URL(import.meta.url).pathname), '..', 'content/Image Database')
 const MAX = 2000
 
 const walk = (dir) => fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => {

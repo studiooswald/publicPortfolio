@@ -2,7 +2,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
-const contentDir = path.join(process.cwd(), 'content')
+const contentDir = path.join(path.dirname(new URL(import.meta.url).pathname), '..', 'content')
 const imgDbDir = path.join(contentDir, 'Image Database')
 
 // Build image index recursively (handles subdirectories like 2026/A sense of finding home/)
