@@ -10,11 +10,16 @@ rsync -a --delete \
   --exclude=".obsidian" \
   --exclude="*.canvas" \
   --exclude="index.md" \
+  --exclude="Series/" \
+  --exclude="_Templates/" \
   "$VAULT/Body of Work/" \
   "$QUARTZ/content/"
 
 echo "→ Syncing images (new only)..."
 rsync -a \
+  --exclude="*.psd" \
+  --exclude="*.ai" \
+  --exclude="*.afdesign" \
   "$VAULT/Image Database/" \
   "$QUARTZ/content/Image Database/"
 
