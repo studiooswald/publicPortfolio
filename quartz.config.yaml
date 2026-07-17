@@ -221,7 +221,7 @@ plugins:
     enabled: false
     order: 900
   - source: github:quartz-community/stacked-pages
-    enabled: true
+    enabled: false
     layout:
       position: afterBody
       priority: 50
